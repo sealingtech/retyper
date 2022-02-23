@@ -6,6 +6,10 @@ Re-Typer takes an input file and types it out. This is useful incases where you 
 ## Common Usecase
 - Copying code/scripts/data into a vsphere VM console
 
+## Prerequisites
+- python3
+- python modules: pynput, pywin32
+
 ## Usage
 `user@host:~ python3 retyper.py`
 1. Configure the script to point to the \*.txt containing your source data.
